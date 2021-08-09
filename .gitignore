@@ -1,0 +1,13 @@
+backend/.idea/
+backend/.vscode/
+backend/node_modules/
+backend/build/
+backend/temp/
+backend/.env
+backend/corverage
+backend/ormconfig.json
+
+backend/tmp/*
+backend/!tmp/.gitkeep
+
+frontend/node_modules/

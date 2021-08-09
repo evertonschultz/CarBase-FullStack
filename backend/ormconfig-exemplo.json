@@ -1,0 +1,13 @@
+[
+  {
+    "name": "mongo",
+    "type": "mongodb",
+    "host": "localhost",
+    "port": 27017,
+    "database": "mongo_database",
+    "useUnifiedTopology": true,
+    "entities": [
+      "./src/modules/**/infra/typeorm/schemas/*.ts"
+    ]
+  }
+]
